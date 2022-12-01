@@ -1,0 +1,243 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: rgb(226, 226, 226);
+}
+
+/***********************************************Nav items*****************************/
+nav {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+
+    width: 280px;
+    background: rgb(9, 4, 36);
+    overflow: hidden;
+
+}
+
+nav:hover {}
+
+
+.ul-nav {
+    margin-top: 80px;
+
+}
+
+a {
+    position: relative;
+    width: 280px;
+    font-size: 20px;
+    color: rgb(226, 243, 233);
+
+    display: table;
+    padding: 10px;
+}
+
+nav .fas {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+a:hover {
+    background: rgb(116, 226, 171);
+}
+
+a:hover i {
+    color: #34AF6D;
+    transition: 0.5s;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/************************************* MAin Section *******************************************88*/
+.main {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+.main-top {
+    display: flex;
+    width: 100%;
+}
+
+.main-top i {
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(110, 109, 109);
+    cursor: pointer;
+}
+
+.main-skills {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-skills2 {
+    display: flex;
+    float: right;
+    margin-top: -220px;
+    margin-right: 380px;
+}
+
+.main-skills3 {
+    display: flex;
+    float: right;
+    margin-top: -220px;
+
+}
+
+.main-skill4 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.card {
+    width: 320px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(4, 4, 41);
+    text-align: center;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 10px;
+    box-shadow: 2px 10px 15px rgba(34, 27, 27, 0.1);
+
+}
+
+.card i {
+    margin-top: 30px;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.head-d {
+    font-size: 20px;
+    color: rgb(210, 241, 181);
+}
+
+.button {
+    background: #d0e2d9;
+    color: rgb(87, 82, 77);
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+/************************8courses*****************************/
+.main-progress {
+    margin-top: 20px;
+}
+
+.course-box {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(7, 7, 46);
+    border-radius: 10px;
+    box-shadow: 2px 10px 15px rgba(34, 27, 27, 0.1);
+}
+
+.ds {
+    list-style: none;
+    display: flex;
+}
+
+.ds li {
+    margin: 10px;
+    color: #d0e2d9;
+    cursor: pointer;
+}
+
+.course {
+    display: flex;
+}
+
+.box {
+    width: 500px;
+height: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(195, 195, 233);
+border-radius: 10px;
+}
+.html{
+    width: 300px;
+height: 35px;
+background-color: rgb(83, 83, 90);
+border-radius: 10px;
+margin-left: 30px;
+
+}
+.ds-html{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.skill{
+    margin-left: 250px;
+    margin-top: -25px;
+}
+.btn-skill{
+background-color: #053a20;
+color:rgb(207, 207, 233);
+margin-left: 350px;
+
+padding: 7px 10px;
+border-radius: 10px;
+
+cursor: pointer;
+}
+.box2{
+    width: 500px;
+height: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(195, 195, 233);
+border-radius: 10px;
+margin-left: 550px;
+margin-top: -115px;
+}
+.box3{
+    width: 500px;
+height: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(195, 195, 233);
+border-radius: 10px;
+margin-top: 40px;
+}
